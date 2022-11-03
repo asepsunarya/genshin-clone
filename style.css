@@ -1,0 +1,120 @@
+body {
+  overflow-x: hidden;
+}
+
+.hero {
+  height: 110vh;
+  background-image: url(https://act.hoyoverse.com/puzzle/upload/puzzle/2022/10/30/40bc39937bbf1384e298c6e766b67379_8912750616561261056.png?x-oss-process=image/format,webp/quality,Q_90);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+.navbar-genshin {
+  background: url(https://act.hoyoverse.com/puzzle/upload/puzzle/2022/10/28/34a36a30811c4b96847d769037ba33b4_4971267045203282396.png?x-oss-process=image/format,webp/quality,Q_90);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90px;
+  padding: 0 15px;
+  opacity: 0;
+  top: -70px;
+  font-size: 24px;
+}
+
+.navbar-genshin a {
+  color: #eaeaea;
+  letter-spacing: 1.25px;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-image {
+  width: 160px
+}
+
+.content {
+  min-height: 5000px;
+  background: url(https://act.hoyoverse.com/puzzle/upload/puzzle/2022/10/30/0413f2107240e72e35013f88921d444a_6333958349912062130.png?x-oss-process=image/format,webp/quality,Q_90);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-size: cover;
+  background-clip: border-box;
+}
+
+.badge-image {
+  width: 75%;
+}
+
+.character-description {
+  color: #fafafa;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.anim-rotate {
+  -webkit-animation: rotating 5s linear reverse infinite;
+}
+
+.play-demo {
+  cursor: pointer;
+  position: relative;
+}
+
+.demo-button {
+  position: absolute;
+  top: 10px;
+  left: 7px
+}
+
+.video {
+  margin-left: 350px;
+  margin-top: 312px;
+  margin-bottom: 300px;
+  width: 200px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+
+
+.modal-dialog {
+  width: 100% !important;
+  height: 100%;
+  margin: 0 !important;
+  margin-left: 30% !important;
+  padding: 0;
+  display: grid;
+  justify-items: center;
+  box-sizing: border-box;
+}
+
+.modal-content {
+  width: 100%;
+}
+
+#about {
+  min-height: 100vh;
+}
+
+.greet {
+  font-size: 30px !important;
+  color: #333
+}
